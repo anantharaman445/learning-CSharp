@@ -1,10 +1,7 @@
-using System;							// default namespace
+using System ;
 
-namespace helloWorldApplication {
-	class Program {
-		static void Main (String[] args) {
-			Console.WriteLine("Hello World App");		// prints string in a new line
-			Console.ReadKey();							// waits for a key press and exit
-		}
-	}
+public class Program {
+    static void Main (String[] args) {
+        Console.WriteLine ("Hello Bharath !");
+    }
 }
