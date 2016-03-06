@@ -2,13 +2,14 @@ using System ;
 
 public class Program {
     static void Main (String[] args) {
-        int number = 20 ;
-        byte bit ;
-        do {
-            -- number ;
-            bit = Convert.ToByte(number) ;
-            Console.WriteLine ("{0} == {1}", number, bit);
-        }while ( number == bit );
-        Console.WriteLine ("number {0} doesn't equals bit {1}",number , bit);
+        
+        //Reading a integer value
+        
+        short s = 10;
+        int i = 20 ;
+        i = Convert.ToInt32(Console.ReadLine());
+        double d = s + i ;
+        Console.WriteLine("s: {0}, i: {1}, d: {2}", s, i, d);
+        
     }
 }
